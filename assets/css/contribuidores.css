@@ -1,0 +1,20 @@
+article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.contribuidor {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 10rem;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+h2 {
+    text-align: center;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bancos.css">
+    <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Outros Exercícios - Lógica</title>
+</head>
+<body>
+    
+    <main>
+        <i class="fa-regular fa-circle-left" id="btn-voltar"></i>
+        <header>
+            <!-- <img src="../imagens/logo_sem_fundo.png" alt="logo"> -->
+            <h1>Outros Exercícios</h1>
+        </header>
+        
+        <article>
+
+            <h2>1. Considere o argumento:</h2>
+            <p class="destaque">
+                Todos os cães são mamíferos <br>
+                Todos os mamíferos são animais <br>
+                Logo, todos os cães são animais
+            </p>
+
+            <p>Qual a classificação desse argumento? <br>
+            <strong>(a)</strong> Válido e correto. <br>
+            <strong>(b)</strong> Válido, mas correto. <br>
+            <strong>(c)</strong> Inválido, mas correto. <br>
+            <strong>(d)</strong> Inválido e correto.</p>
+
+            <h2>2. Tradução para a Lógica Proposicional:</h2>
+            <p>
+                "Não é verdade que, se o sol está brilhando, então está calor." <br>
+                (S: Sol está brilhando, C: Está calor)
+            </p>
+
+            <p>
+            <strong>(a)</strong> S → ¬C <br>
+            <strong>(b)</strong> S ∧ ¬C <br>
+            <strong>(c)</strong> ¬(S → C) <br>
+            <strong>(d)</strong> ¬S ∨ C
+            </p>
+
+            <h2>3. Classificação da fórmula lógica:</h2>
+            <p class="destaque">¬(A → B) ↔ (A ∧ ¬B)</p>
+
+            <p>
+            <strong>(a)</strong> Contradição <br>
+            <strong>(b)</strong> Contingência <br>
+            <strong>(c)</strong> Argumento Válido <br>
+            <strong>(d)</strong> Tautologia
+            </p>
+
+            <h2>4. Aplicação da Regra de Intercâmbio de Quantificadores:</h2>
+            <p>Qual fórmula é logicamente equivalente a ¬∀xP(x)?</p>
+
+            <p>
+            <strong>(a)</strong> ∀x¬P(x) <br>
+            <strong>(b)</strong> ƎxP(x) <br>
+            <strong>(c)</strong> ¬Ǝx¬P(x) <br>
+            <strong>(d)</strong> Ǝx¬P(x)
+            </p>
+
+            <h2>5. Aplicação da Regra de Eliminação da Conjunção (E∧):</h2>
+            <p class="destaque">P ∧ (Q ∨ R)</p>
+
+            <p>
+            <strong>(a)</strong> P ∧ Q <br>
+            <strong>(b)</strong> Q ∨ R <br>
+            <strong>(c)</strong> P ∧ R <br>
+            <strong>(d)</strong> P ∨ Q
+            </p>
+
+            <h2>6. Utilize uma tabela verdade completa para analisar a fórmula lógica:</h2>
+            <p class="destaque">((P → Q) ∧ ¬Q) → ¬P</p>
+
+            <p> Classifique a fórmula como Tautologia, Contradição ou Contingência</p>
+
+            <h2>7. Tradução com predicados:</h2>
+            <p>
+                A: x é aluno <br>
+                P: x é professor <br>
+                R(x, y): x respeita y <br>
+                c = Carlos
+            </p>
+
+            <p><strong>a)</strong> Todos os alunos respeitam Carlos, mas nem todos os professores o respeitam.</p>
+            <p><strong>b)</strong> Algum professor não respeita nenhum aluno.</p>
+
+            <h2>8. Construa tabelas verdade para as fórmulas abaixo:</h2>
+
+            <p><strong>a)</strong> P → (Q ∨ R)</p>
+            <p><strong>b)</strong> (P ∧ ¬Q) → R</p>
+
+            <h2>9. Use o método de Tablôs Semânticos para verificar se o seguinte conjunto de fórmulas é satisfazível:</h2>
+            <p>{¬(P → Q), P ∨ Q}</p>
+
+            <h2>10. Traduza as frases abaixo para a linguagem da lógica proposicional, atribuindo símbolos adequados:</h2>
+
+            <p><strong>a)</strong> "Se o sistema falhar, então a produção será interrompida, a menos que haja geradores de reserva."</p>
+            <p><strong>b)</strong> "O estudante passa na disciplina somente se entregar todas as atividades."</p>
+            <p><strong>c)</strong> "É necessário que o software seja atualizado para que o problema seja corrigido."</p>
+            <p><strong>d)</strong> "Não é verdade que Maria e João serão aprovados juntos."</p>
+
+            <h2>11. Determine se a fórmula é tautologia, contradição ou contingência:</h2>
+
+            <p><strong>a)</strong> (P ∨ ¬P) ∧ (Q ∨ ¬Q)</p>
+            <p><strong>b)</strong> ¬(P ∧ Q) ↔ (¬P ∨ ¬Q)</p>
+            <p><strong>c)</strong> (P → Q) ∧ (P ∧ ¬Q)</p>
+
+            <h2>12. Traduza usando quantificadores e predicados adequados:</h2>
+
+            <p><strong>a)</strong> "Todo aluno que estuda lógica compreende tabelas-verdade."</p>
+            <p><strong>b)</strong> "Algum professor não corrigiu nenhuma das provas."</p>
+            <p><strong>c)</strong> "Existe um livro que todos os estudantes deveriam ler."</p>
+            <p><strong>d)</strong> "Nem todo argumento é válido."</p>
+
+            <h2>13. Estrutura lógica das frases:</h2>
+
+            <p><strong>1)</strong> "Se o computador travar, então o projeto atrasa."</p>
+            <p>
+            <strong>(a)</strong> C ↔ P <br>
+            <strong>(b)</strong> Se C então P <br>
+            <strong>(c)</strong> Se P então C <br>
+            <strong>(d)</strong> C ou P <br>
+            <strong>(e)</strong> ¬C ∧ P
+            </p>
+
+            <p><strong>2)</strong> "O sistema só funciona se houver energia."</p>
+            <p>
+            <strong>(a)</strong> Se o sistema funciona então há energia <br>
+            <strong>(b)</strong> Se há energia então o sistema funciona <br>
+            <strong>(c)</strong> O sistema funciona ou há energia <br>
+            <strong>(d)</strong> ¬energia ↔ sistema funciona <br>
+            <strong>(e)</strong> Se não há sistema então não há energia
+            </p>
+
+            <p><strong>3)</strong> "Não é verdade que Ana e Bruno se apresentaram juntos."</p>
+            <p>
+            <strong>(a)</strong> ¬(A ∧ B) <br>
+            <strong>(b)</strong> ¬A ∨ ¬B <br>
+            <strong>(c)</strong> A ∨ B <br>
+            <strong>(d)</strong> A ∧ ¬B <br>
+            <strong>(e)</strong> Nenhuma das alternativas
+            </p>
+
+            <h2>14.  Escolha a classificação correta: tautologia, contradição ou contingência.</h2>
+
+            <p class="destaque">¬(P ∧ Q) ∨ Q</p>
+            <p>
+            <strong>(a)</strong> Tautologia <br>
+            <strong>(b)</strong> Contradição <br>
+            <strong>(c)</strong> Contingência <br>
+            <strong>(d)</strong> Indeterminável <br>
+            <strong>(e)</strong> Verdade apenas quando P é falso
+            </p>
+
+            <p class="destaque">(P ∨ ¬P) ∧ (Q ∨ ¬Q)</p>
+            <p>
+            <strong>(a)</strong> Contradição <br>
+            <strong>(b)</strong> Contingência <br>
+            <strong>(c)</strong> Tautologia <br>
+            <strong>(d)</strong> Verdadeira apenas quando P e Q são verdadeiros <br>
+            <strong>(e)</strong> Nenhuma das anteriores
+            </p>
+
+            <h2>15. Classificação do argumento:</h2>
+
+            <p>
+            P<sub>1</sub> Se P então Q <br>
+            P<sub>2</sub> Não Q <br>
+            ∴ Não P
+            </p>
+
+            <p>
+            <strong>(a)</strong> Válido por modus ponens <br>
+            <strong>(b)</strong> Válido por modus tollens <br>
+            <strong>(c)</strong> Inválido <br>
+            <strong>(d)</strong> Válido apenas se Q for verdadeiro <br>
+            <strong>(e)</strong> Não pode ser testado
+            </p>
+            
+        </article>
+
+    </main>
+
+    <script src="../js/bancos.js"></script>
+
+</body>
+</html>
